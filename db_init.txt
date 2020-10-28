@@ -1,0 +1,6 @@
+.open fraud.db
+.mode csv fraud_train
+.import fraudTrain.csv fraud_train
+.mode csv fraud_test
+.import fraudTest.csv fraud_test
+
