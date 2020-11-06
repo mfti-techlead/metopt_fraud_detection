@@ -126,5 +126,10 @@ from fraud_train
 group by job
 order by 4 desc 
 
-
+-- fraud rate by hour 
+select substr(trans_date_trans_time,12,2), count(*),  count(case when is_fraud = 1 then 1 end),
+round(100 * cast(count(case when is_fraud = 1 then 1 end) as float) / cast(count(*) as float),5) fraud_share 
+from fraud_train
+group by substr(trans_date_trans_time,12,2)
+order by 4 desc 
 
