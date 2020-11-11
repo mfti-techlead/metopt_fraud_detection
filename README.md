@@ -84,6 +84,17 @@
 
 Проверка применения градиентного бустинга для определения банковского мошенничества выполнена в работе [Maoguang Wang](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1031&context=iceb2018), согласно которой наиболее эффективным методом для определения предикторов и их комбинаций является XGBoost, кроме того данный метод обладает большей обобщающей способностью по сравнению с моделью случайного леса.
 
+Особенности модели XGBoost приведены в статье [Xgboost. Теория и практика](http://biostat-r.blogspot.com/2016/08/xgboost.html)
+
+Официальная документация по настройке гиперпараметров [XGBoost Parameters](https://xgboost.readthedocs.io/en/latest/parameter.html)
+
+Рекомендации по подбору гиперпараметров по сетке приведены в статье [machinelearningmastery](https://www.machinelearningmastery.ru/from-zero-to-hero-in-xgboost-tuning-e48b59bfaf58/)
+
+Обзор подходов к оптимизация гиперпараметров приводится в [статье](https://www.machinelearningmastery.ru/hyperparameters-optimization-526348bb8e2d/)
+
+Подход к регуляризации с использованием параметра gamma приведен в [статье](pseudo-regularization hyperparameter)
+
+Официальная документация к пакету RandomizedSearchCV для подбора гиперпараметров модели по сетке по [ссылке](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html)
 
 ## Обучение модели
 
